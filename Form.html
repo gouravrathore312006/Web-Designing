@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+      <form>
+        <input type="text" value="ITM UNIVERSITY" readonly />
+        <br /><br />
+
+        <!-- Insert Data in Form Like Name,Email and Password -->
+        <label>Name:</label>
+        <input type="text" name="Name" placeholder="Enter Your Name" required />
+        <br /><br />
+
+        <label>Email:</label>
+        <input
+          type="email"
+          name="Email"
+          placeholder="Enter Your Email"
+          required
+        />
+        <br /><br />
+
+        <label>Password:</label>
+        <input
+          type="password"
+          name="Password"
+          placeholder="Enter Your Password"
+          required
+        />
+        <br /><br />
+
+        <label>Phone:</label>
+        <input
+          type="number"
+          name="Phone Number"
+          placeholder="Enter Your Phone Number"
+          required
+        />
+        <br /><br />
+
+        <label>D.O.B</label>
+        <input
+          type="date"
+          name="DOB"
+          placeholder="Enter The Date of Birth"
+          required
+        />
+        <br /><br />
+
+        <label>Gender:</label>
+        <input type="radio" name="Gender" value="Male" required />Male
+        <input type="radio" name="Gender" value="Female" required />Female
+        <input type="radio" name="Gender" value="Other" required />Other
+        <br /><br />
+
+        <label>College:</label>
+        <select name="Collage">
+          <option>Select College</option>
+          <option value="ITM UNIVERSITY">ITM UNIVERSITY</option>
+          <option value="RJIT">RJIT</option>
+          <option value="AMITY UNIVERSITY">AMITY UNIVERSITY</option>
+          <option value="IIT">IIT</option>
+        </select>
+        <br /><br />
+
+        <label>Education:</label>
+        <input type="checkbox" name="edu" value="10" required />10TH
+        <input type="checkbox" name="edu" value="12" required />12TH
+        <input type="checkbox" name="edu" value="B.TECH" required />B.TECH
+        <br /><br />
+
+        <label>Address:</label>
+        <textarea name="Address" id=""></textarea>
+        <br /><br />
+
+        <label>Image:</label>
+        <input type="file" name="Image" required />
+        <br /><br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </center>
+    <!-- This is from Data -->
+    <!-- http://127.0.0.1:5500/Form.html?Name=Gourav+Rathore&email=gouravk.rathore619619%40gmail.com&password=Gourav123 -->
+  </body>
+</html>

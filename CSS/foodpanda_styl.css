@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background: white;
+  width: 100%;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 10px;
+  font-weight: bold;
+  color: rgb(47, 129, 217);
+}
+/* body{
+   background-color: rgb(181, 234, 146);
+} */
+.banner {
+  background: url(/Image/Restaurant.jpg);
+  width: 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px 0px;
+}
+.news {
+  background: linear-gradient(to right, green, blue, red);
+  width: 100%;
+  height: 50px;
+}
+.news marquee {
+  color: white;
+  font-size: 30px;
+  line-height: 50px;
+}
+.about {
+  padding: 150px 200px;
+  text-align: center;
+  background-color: rgb(230, 172, 172);
+}
+.about h2 {
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-shadow: 3px 3px 3px red;
+}
+.about p {
+  line-height: 25px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  margin-bottom: 10px;
+}
+.about button {
+  width: 215px;
+  height: 42px;
+  background-color: rgb(255, 249, 88);
+  color: rgb(20, 20, 20);
+  border: none;
+  border-radius: 100px;
+}
+.banner h1 {
+  text-align: center;
+  background-color: rgb(244, 163, 64);
+  width: 20%;
+  margin: auto;
+  font-size: 30px;
+  position: relative;
+  top: 40%;
+}
+
+/* team CSS  */
+.team {
+  padding: 150px 200px;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7)), url(/Image/Restaurant_2.jpg);
+  color: white;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  /* background: url(/Image/Restaurant.jpg); */
+}
+.team h2 {
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-shadow: 3px 3px 3px red;
+}
+.team p {
+  line-height: 25px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  margin-bottom: 10px;
+}
+.team button {
+  width: 215px;
+  height: 42px;
+  background-color: rgb(255, 249, 88);
+  color: rgb(20, 20, 20);
+  border: none;
+  border-radius: 100px;
+}
+/* Contact CSS  */
+.contact {
+  padding: 150px 200px;
+  text-align: center;
+  background: linear-gradient(to right, Orange, white, green);
+  color: white;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  /* background: url(/Image/Restaurant.jpg); */
+}
+.contact h2 {
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-shadow: 3px 3px 3px red;
+}
+.contact p {
+  line-height: 25px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  margin-bottom: 10px;
+}
+.contact button {
+  width: 215px;
+  height: 42px;
+  background-color: rgb(255, 249, 88);
+  color: rgb(20, 20, 20);
+  border: none;
+  border-radius: 100px;
+}
+
+/* Footer */
+footer{
+  background: black;
+  width: 100%;
+  height: 350px;
+}

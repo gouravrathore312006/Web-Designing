@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .login {
+        border: 1px solid white;
+        width: 300px;
+        height: 230px;
+        margin-top: 100px;
+        /* background: linear-gradient(to right, orange, white, green); */
+        /*box-shadow: 60px 30px 40px black;*/
+        background: linear-gradient(rgba(0, 0, 0, 0));
+        box-shadow: 5px 5px 10px black;
+      }
+      body {
+        /* background: rgb(185, 182, 182); */
+        background: url(/Image/Background.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .login h2 {
+        background: whitesmoke;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+      }
+      .login input {
+        width: 220px;
+        height: 35px;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px black;
+      }
+      .login button {
+        width: 115px;
+        height: 50px;
+        background: black;
+        color: white;
+        border: none;
+        border-radius: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <div class="login">
+        <h2>Login</h2>
+        <form>
+          <input type="text" name="" placeholder="Username" required />
+          <br /><br />
+          <input type="password" name="" placeholder="Password" required />
+          <br /><br />
+          <button type="Submit">Login</button>
+        </form>
+      </div>
+    </center>
+  </body>
+</html>

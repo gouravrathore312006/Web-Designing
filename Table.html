@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* For Table Border*/
+      table,
+      tr,
+      th,
+      td {
+        border: 1px solid;
+        width: 800px;
+        height: 40px;
+        text-align: center;
+        margin-top: 100px;
+        /* For Remove Second Line*/
+        border-collapse: collapse;
+      }
+      /* For Add Color*/
+      tr:hover {
+        background: orange;
+      }
+      td:hover {
+        background: red;
+      }
+      th:hover {
+        background: green;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <table>
+        <tr>
+          <!-- Colspan for Display Data To Center -->
+          <th colspan="5">Display Data</th>
+        </tr>
+        <!-- Table Rows (tr) -->
+        <tr>
+          <!-- Table Heading (th) -->
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Action</th>
+        </tr>
+        <tr>
+          <!-- table Data (td) -->
+          <td>1</td>
+          <td>Gourav Rathore</td>
+          <td>gouravk.rathore619619@gmail.com</td>
+          <td>9993496782</td>
+          <td>
+            <a href="">View</a>
+            <a href="">Edit</a>
+            <a href="">Delete</a>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>

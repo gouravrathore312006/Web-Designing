@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background: white;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    background: rgb(247, 247, 247);
+}
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 10px;
+    font-weight: bold;
+    color: black;
+}
