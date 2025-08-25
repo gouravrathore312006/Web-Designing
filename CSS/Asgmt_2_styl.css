@@ -32,6 +32,7 @@ nav {
     position: absolute;
     top: 200px;
     right: 1300px;
+    color: white;
 }
 .p2 {
     text-align: center;
@@ -39,12 +40,26 @@ nav {
     position: absolute;
     top: 240px;
     right: 1220px;
+    color: white;
 }
 .p3 {
     text-align: left;
     font-size: 15px;
     position: absolute;
     top: 290px;
-    right: 1200px;
-    left: 70px;
+    right: 1030px;
+    left: 57px;
+    color: white;
+}
+body{
+  background: url(/Image/Assignmnt_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.border1{
+  border: 1px solid black;
+  width: 300px;
+  height: 700px;
+  padding: 35vh;
+  background: rgba(0, 113, 187, 0.82);
 }
